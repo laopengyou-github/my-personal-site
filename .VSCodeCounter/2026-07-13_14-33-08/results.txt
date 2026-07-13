@@ -1,0 +1,37 @@
+Date : 2026-07-13 14:33:08
+Directory : d:\Users\LPY\Desktop\人工智能培训\八斗人工智能培训\利用ai开发\myweb\my-personal-site\src\app
+Total : 8 files,  280 codes, 11 comments, 29 blanks, all 320 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| TypeScript JSX |          6 |        167 |          5 |         19 |        191 |
+| TypeScript     |          1 |         82 |          5 |          5 |         92 |
+| PostCSS        |          1 |         31 |          1 |          5 |         37 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                               | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                  |          8 |        280 |         11 |         29 |        320 |
+| . (Files)                                                                                          |          3 |         92 |          4 |         15 |        111 |
+| components                                                                                         |          4 |        106 |          2 |          9 |        117 |
+| data                                                                                               |          1 |         82 |          5 |          5 |         92 |
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                           | language       | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| d:\Users\LPY\Desktop\人工智能培训\八斗人工智能培训\利用ai开发\myweb\my-personal-site\src\app\components\Footer.tsx   | TypeScript JSX |          0 |          0 |          1 |          1 |
+| d:\Users\LPY\Desktop\人工智能培训\八斗人工智能培训\利用ai开发\myweb\my-personal-site\src\app\components\Header.tsx   | TypeScript JSX |          0 |          0 |          1 |          1 |
+| d:\Users\LPY\Desktop\人工智能培训\八斗人工智能培训\利用ai开发\myweb\my-personal-site\src\app\components\Hero.tsx     | TypeScript JSX |         48 |          2 |          2 |         52 |
+| d:\Users\LPY\Desktop\人工智能培训\八斗人工智能培训\利用ai开发\myweb\my-personal-site\src\app\components\WorkCard.tsx | TypeScript JSX |         58 |          0 |          5 |         63 |
+| d:\Users\LPY\Desktop\人工智能培训\八斗人工智能培训\利用ai开发\myweb\my-personal-site\src\app\data\works.ts           | TypeScript     |         82 |          5 |          5 |         92 |
+| d:\Users\LPY\Desktop\人工智能培训\八斗人工智能培训\利用ai开发\myweb\my-personal-site\src\app\globals.css             | PostCSS        |         31 |          1 |          5 |         37 |
+| d:\Users\LPY\Desktop\人工智能培训\八斗人工智能培训\利用ai开发\myweb\my-personal-site\src\app\layout.tsx              | TypeScript JSX |         24 |          1 |          4 |         29 |
+| d:\Users\LPY\Desktop\人工智能培训\八斗人工智能培训\利用ai开发\myweb\my-personal-site\src\app\page.tsx                | TypeScript JSX |         37 |          2 |          6 |         45 |
+| Total                                                                                              |                |        280 |         11 |         29 |        320 |
++----------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
