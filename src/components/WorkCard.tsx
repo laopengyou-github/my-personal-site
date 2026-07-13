@@ -1,9 +1,5 @@
-import Image from 'next/image'
-import { Work } from '@/data/works'
-
-interface WorkCardProps {
-  work: Work
-}
+// 删除这行 import
+// import Image from 'next/image'
 
 export default function WorkCard({ work }: WorkCardProps) {
   const categoryColors = {
@@ -25,15 +21,15 @@ export default function WorkCard({ work }: WorkCardProps) {
       rel="noopener noreferrer"
       className="group block bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
     >
-      <div className="relative h-48 bg-warm-100 overflow-hidden">
+      <div className="relative h-48 bg-[#FAF0E6] overflow-hidden">
         {work.image ? (
-          <Image
+          <img
             src={work.image}
             alt={work.title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center text-warm-300 text-4xl">
+          <div className="w-full h-full flex items-center justify-center text-4xl text-[#D4A574]">
             {work.category === 'photography' && '📷'}
             {work.category === 'video' && '🎬'}
             {work.category === 'code' && '💻'}
@@ -47,13 +43,13 @@ export default function WorkCard({ work }: WorkCardProps) {
       </div>
       
       <div className="p-5">
-        <h3 className="font-medium text-warm-900 group-hover:text-warm-300 transition-colors">
+        <h3 className="font-medium text-[#3D3D3D] group-hover:text-[#D4A574] transition-colors">
           {work.title}
         </h3>
-        <p className="mt-1 text-sm text-warm-400 line-clamp-2">
+        <p className="mt-1 text-sm text-[#B8A99A] line-clamp-2">
           {work.description}
         </p>
-        <div className="mt-3 text-xs text-warm-300">
+        <div className="mt-3 text-xs text-[#D4A574]">
           {new Date(work.date).toLocaleDateString('zh-CN')}
         </div>
       </div>
