@@ -64,7 +64,7 @@ export const works: Work[] = [
     title: '个人博客系统',
     description: '基于 Next.js 的全栈博客',
     category: 'code',
-    image: '/images/code-1.jpg',
+    image: '/images/code-1.png',
     link: 'https://github.com/laopengyou-github',
     date: '2025-12-01'
   },
