@@ -19,7 +19,7 @@ export default function About() {
           
           <div className="mt-8 space-y-6 text-warm-600 leading-relaxed">
             <p>
-              你好！我是 刘佩羽，一个热爱用镜头和代码记录生活的创作者。
+              你好！我是 Perry，一个热爱用镜头和代码记录生活的创作者。
             </p>
             
             <div className="grid grid-cols-3 gap-4 py-4">

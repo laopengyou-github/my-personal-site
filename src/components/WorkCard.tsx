@@ -30,8 +30,7 @@ export default function WorkCard({ work }: WorkCardProps) {
           <Image
             src={work.image}
             alt={work.title}
-            fill
-            className="object-cover group-hover:scale-105 transition-transform duration-500"
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center text-warm-300 text-4xl">

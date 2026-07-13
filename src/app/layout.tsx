@@ -9,7 +9,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: '刘佩羽 - 用镜头和代码记录生活',
+  title: 'Perry - 用镜头和代码记录生活',
   description: '摄影师 | 开发者 | 生活记录者',
 }
 

@@ -15,7 +15,7 @@ export default function Hero() {
               <span className="text-warm-400">记录生活</span>
             </h1>
             <p className="mt-6 text-warm-400 text-lg max-w-md mx-auto md:mx-0">
-              你好，我是 刘佩羽。摄影师、开发者、生活记录者。
+              你好，我是 Perry。摄影师、开发者、生活记录者。
             </p>
             <div className="mt-8 flex gap-4 justify-center md:justify-start">
               <a 
@@ -37,11 +37,9 @@ export default function Hero() {
           <div className="flex-1 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-xl">
               <Image
-                src="/images/avatar.jpg"
-                alt="刘佩羽"
-                fill
-                className="object-cover"
-                priority
+                src="/images/avatar.jfif"
+                alt="Perry"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>
